@@ -13,6 +13,7 @@ body {
 position: absolute;
     bottom: 25%;
     width: 50%;
+    z-index:1;
 }
 
 .banner {
@@ -27,8 +28,9 @@ font-size:21px !important;
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
     background: #777;
+    transition: opacity 2s;
 }
 
 .progressBar{
