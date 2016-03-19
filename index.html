@@ -19,7 +19,7 @@
  
           <div class="banner">
             <h1>Emma Zhuang</h1>
-            <button class="mdl-button mdl-js-button mdl-button--accent">
+            <button class="mdl-button mdl-js-button mdl-button--accent" onclick="toast('Site currently under construction. Coming soon....')">
               Enter
             </button>
           </div>
@@ -27,7 +27,16 @@
 
 
       </div>
-    <script>function loaded(){setTimeout(function(){document.querySelector(".loading").style.opacity=0;document.querySelector(".loading").style.zIndex=0;},3000)}</script>
+    <script>function loaded(){setTimeout(function(){document.querySelector(".loading").style.opacity=0;document.querySelector(".loading").style.zIndex=0;},3000)}
+    function toast(msg){
+      var notification = document.querySelector('.mdl-js-snackbar');
+      notification.MaterialSnackbar.showSnackbar(
+        {
+          message: msg
+        }
+);
+    }
+    </script>
     <div aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
     <div class="mdl-snackbar__text"></div>
     <button type="button" class="mdl-snackbar__action"></button>
