@@ -22,3 +22,22 @@ position: absolute;
 button {
 font-size:21px !important;
 }
+
+.loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #777;
+}
+
+.progressBar{
+top: 25%;
+    left: 25%;
+width:50% !important;
+}
+
+h1{
+/*position:relative;
+z-index:2;*/
+}
