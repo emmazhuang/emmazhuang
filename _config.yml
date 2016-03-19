@@ -1,0 +1,4 @@
+name: Qi Xu's Personal Website
+markdown: kramdown
+gems:
+  - jekyll-sitemap
