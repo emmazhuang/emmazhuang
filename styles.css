@@ -11,7 +11,7 @@ body {
 
 .wrapper{
 position: absolute;
-    bottom: 25%;
+    bottom: 10%;
     width: 50%;
     z-index:1;
 }
