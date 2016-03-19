@@ -18,3 +18,7 @@ position: absolute;
 .banner {
   padding: 30px;
 }
+
+button {
+font-size:21px !important;
+}
